@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<hear>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <title>
+        Mi primer sitio en Bootstrap
+    </title>
+    <link rel="stylesheet" href="css/bootsatrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</hear>
+
+<body>
+    <!---- NAVBAR --->
+    <nav id="menu" class="navbar navbar-expand-lg bg-warning" >
+        <div class="container-fluid">
+            <!---- logo --->
+            <a class="navbar-brand" href="index.html">
+                <img src="imagen/starbucks-logo.png" alt="" width="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!---- links --->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Opciones.html"> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!---- CAROUSEL --->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <!---- "d-block w-100" al 100% --->
+                <img src="imagen/banner cafe.jpg" class="d-block w-100" >
+            </div>
+        </div>
+    </div>
+
+    <!-- Columnas -->
+    <div class="container">
+        <div class="row w-75 mx-auto">
+            <!-- Columna 1 -->
+            <div class="col">
+                <img src="imagen/cafe22.jpg" class="d-block w-50" alt="" >
+            </div>
+            <!-- columna 2 -->
+            <div class="col" >
+                <h2 class="fs-5 mt-4 px-4 pb-1">  Informacion </h2>
+                <p class="px-4"> muchas informacion</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row w-75 mx-auto">
+            <!-- Columna 1 -->
+            <div class="col" >
+                <h2 class="fs-5 mt-4 px-4 pb-1">  Informacion </h2>
+                <p class="px-4"> muchas informacion</p>
+            </div>
+            <!-- columna 2 -->
+            <div class="col">
+                <img src="imagen/cafe compu.jpg" class="d-block w-50" alt="" >
+            </div>
+        </div>
+    </div>
+
+    <!-- ACERCA DE Nosotros -->
+    <section>
+        <div>
+            <br>
+            <h1 class="text-center  mb-2  text-dark" >
+                Productos Destacados
+            </h1>
+        </div>
+        <div>
+            <!-- Linea -->
+            <hr class="solid">
+            <hr>
+        </div>
+    </section>
+</body>
+
+</html>
